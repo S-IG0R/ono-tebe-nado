@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  /* outline: 1px solid red; */
 }
 
 body {
@@ -11,6 +12,13 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin: 0;
+}
+
+ul, 
+ol {
+  margin: 0;
+  padding: 0;
 }
