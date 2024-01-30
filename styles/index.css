@@ -15,7 +15,7 @@
   padding: 92px 0 92px;
 }
 
-.header-text {
+.main-text {
   font-size: 18px;
 }
 
@@ -25,6 +25,13 @@
   margin-left: 26px;
   letter-spacing: 0.18px;
   list-style-type: circle;
+}
+
+.menu-list__type_footer {
+  flex-direction: column;
+  list-style-type: none;
+  align-items: center;
+  margin: 0;
 }
 
 .menu-list .menu-item:first-child {
@@ -322,4 +329,21 @@
 
 .about__text-container .about__paragraph:first-child {
   margin-top: 3px;
+}
+
+.footer {
+  padding: 180px 50px 88px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer__social-icons-list {
+  list-style-type: none;
+  display: flex;
+  gap: 0 48px;
+  justify-self: end;
+}
+
+.footer__link {
+  border: none;
 }
